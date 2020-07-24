@@ -33,6 +33,7 @@ function displayPhotos(photosArr) {
         // img.setAttribute('alt', photo.alt_description);
         // img.setAttribute('title', photo.alt_description);
 
+        /* Image should be checked if the loading successes before setting for its source */
         img.addEventListener('load',imageLoaded);
 
         setAttributes(img, {
